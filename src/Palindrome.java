@@ -16,7 +16,7 @@ public class Palindrome {
 
         String b = "racecar";
         String lowercase1 = b.toLowerCase();
-        String reversed1 = "";
+        String reversed1;
         reversed1 = new StringBuilder(lowercase1).reverse().toString();
         if(lowercase1.equals(reversed1)){
             System.out.println( b+ " is palindrome");
